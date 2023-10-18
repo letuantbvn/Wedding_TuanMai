@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+$font-primary: 'Raleway',
+sans-serif;
+$font-secondary: 'Yeseva One',
+cursive;
+$font-tertiary: '',
+sans-serif;
+$font-heading: $font-secondary;
+$font-icon: FontAwesome;
+$font-sas: 'sas-webfont';
+$black: #222;
+$white: #ffffff;
+// Global
+$color-body: #333;
+$color-primary: #C69C6D;
+$color-secondary: #333333;
+$color-tertiary: transparent;
+$color-quaternary: transparent;
+$body-bg: #fff;
+$font-body: $font-primary;
+$content-padding: 100px;
+
+/* -------------------- 
+TOPBAR SETTING
+-----------------------*/
+
+$topbar-bg: $color-secondary;
+$topbar-color: $white;
+$topbar-nav-color: $white;
+$topbar-nav-hover-color: $color-primary;
+$topbar-font: $font-primary;
+
+/* -------------------- 
+NAVBAR SETTING
+-----------------------*/
+
+$navbar-bg: $white;
+$navbar-font: $font-primary;
+$navbar-color: $color-body;
+$navbar-hover-color: $color-primary;
+$navbar-active-color: $color-primary;
+$navbar-bg-stiky: $white;
+$navbar-stiky-color: $black;
+$navbar-stiky-active-color: $color-primary;
+
+/* -------------------- 
+FOOTER SETTING
+-----------------------*/
+
+$footer-bg: #333;
+$footer-bg-copyright: $white;
+$footer-font-color: $white;
+
+/* -------------------- 
+BUTTON SETTING
+-----------------------*/
+
+$btn-primary-hover: $color-secondary;
+// Background
+$bg__topbar: $color-primary;
+.bolder {
+    font-weight: 600;
+}
+
+.cfix {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+@import "mixin.scss";
