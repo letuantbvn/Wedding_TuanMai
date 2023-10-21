@@ -7092,3 +7092,35 @@ Back To Top Section
 
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* cLOCK */
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #b88348;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    background: white;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: white;
+    display: inline-block;
+}
+
+.smalltext {
+    color: #222;
+    padding-top: 5px;
+    font-size: 16px;
+}
