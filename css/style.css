@@ -7115,12 +7115,13 @@ Back To Top Section
 #clockdiv div>span {
     padding: 15px;
     border-radius: 3px;
-    background: white;
+    background: #E5E3E4;
     display: inline-block;
 }
 
 .smalltext {
     color: #222;
     padding-top: 5px;
+    font-weight: bold;
     font-size: 16px;
 }

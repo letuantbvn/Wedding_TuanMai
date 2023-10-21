@@ -36,27 +36,16 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <script src="js/vendor/modernizr.min.js"></script>
-
 </head>
 
 <body data-spy="scroll" data-target="#navbar-main">
 
     <!-- LOAD PAGE -->
-    <!-- <div class="animationload">
+    <div class="animationload">
         <div class="loader"></div>
-    </div> -->
-
-    <div id="preloader" style="display: none;">
-        <div class="loading-heart">
-            <svg viewBox="0 0 512 512" width="100">
-                <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
-            </svg>
-            <div class="preloader-title">
-                V<br>
-                <small>&amp;</small><br> H
-            </div>
-        </div>
     </div>
+
+
 
     <!-- BACK TO TOP SECTION -->
     <a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
@@ -121,73 +110,30 @@
                 <div class="overlay-bg"></div>
                 <div class="container d-flex align-items-center h-center">
                     <div class="wrap-caption">
-                        <div class="uk24 text-white" style="white; text-shadow: 2px 2px 4px #3a3a3a;">
+                        <div class="uk24 text-white" style="color: white; text-shadow: 2px 2px 4px #3a3a3a;">
                             <h4>LỄ THÀNH HÔN CỦA</h4>
                         </div>
                         <h1 class="caption-heading" style="color: white; text-shadow: 2px 2px 4px #3a3a3a;">Tuấn <i class="fa fa-heart" style="color: rgba(239,63,76,1)"></i> Mai</h1>
                         <p class="uk21">05/11/2023</p>
-                        <!-- Clock run -->
                         <div id="clockdiv">
                             <div>
                                 <span class="days"></span>
-                                <div class="smalltext">Days</div>
+                                <div class="smalltext">NGÀY</div>
                             </div>
                             <div>
                                 <span class="hours"></span>
-                                <div class="smalltext">Hours</div>
+                                <div class="smalltext">GIỜ</div>
                             </div>
                             <div>
                                 <span class="minutes"></span>
-                                <div class="smalltext">Minutes</div>
+                                <div class="smalltext">PHÚT</div>
                             </div>
                             <div>
                                 <span class="seconds"></span>
-                                <div class="smalltext">Seconds</div>
+                                <div class="smalltext">GIÂY</div>
                             </div>
                         </div>
-                        <Script>
-                            function getTimeRemaining(endtime) {
-                                var t = Date.parse(endtime) - Date.parse(new Date());
-                                var seconds = Math.floor((t / 1000) % 60);
-                                var minutes = Math.floor((t / 1000 / 60) % 60);
-                                var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-                                var days = Math.floor(t / (1000 * 60 * 60 * 24));
-                                return {
-                                    'total': t,
-                                    'days': days,
-                                    'hours': hours,
-                                    'minutes': minutes,
-                                    'seconds': seconds
-                                };
-                            }
 
-                            function initializeClock(id, endtime) {
-                                var clock = document.getElementById(id);
-                                var daysSpan = clock.querySelector('.days');
-                                var hoursSpan = clock.querySelector('.hours');
-                                var minutesSpan = clock.querySelector('.minutes');
-                                var secondsSpan = clock.querySelector('.seconds');
-
-                                function updateClock() {
-                                    var t = getTimeRemaining(endtime);
-
-                                    daysSpan.innerHTML = t.days;
-                                    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-                                    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-                                    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-                                    if (t.total <= 0) {
-                                        clearInterval(timeinterval);
-                                    }
-                                }
-
-                                updateClock();
-                                var timeinterval = setInterval(updateClock, 1000);
-                            }
-
-                            var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-                            initializeClock('clockdiv', deadline);
-                        </Script>
                         <div class="separator-banner"><i class="fa fa-heart"></i></div>
                     </div>
                 </div>
@@ -197,73 +143,11 @@
                 <div class="overlay-bg"></div>
                 <div class="container d-flex align-items-center h-center">
                     <div class="wrap-caption">
-                        <div class="uk24 text-white" style="white; text-shadow: 2px 2px 4px #3a3a3a;">
+                        <div class="uk24 text-white" style="color: white; text-shadow: 2px 2px 4px #3a3a3a;">
                             <h4>THE WEDDING CELEBRATION OF</h4>
                         </div>
-                        <h1 class="caption-heading" style="white; text-shadow: 2px 2px 4px #3a3a3a;">Tuan <i class="fa fa-heart" style="color: rgba(239,63,76,1)"></i> Mai</h1>
+                        <h1 class="caption-heading" style="color:white; text-shadow: 2px 2px 4px #3a3a3a;">Tuan <i class="fa fa-heart" style="color: rgba(239,63,76,1)"></i> Mai</h1>
                         <p class="uk21">05/11/2023</p>
-                        <!-- Clock run -->
-                        <div id="clockdiv">
-                            <div>
-                                <span class="days"></span>
-                                <div class="smalltext">Days</div>
-                            </div>
-                            <div>
-                                <span class="hours"></span>
-                                <div class="smalltext">Hours</div>
-                            </div>
-                            <div>
-                                <span class="minutes"></span>
-                                <div class="smalltext">Minutes</div>
-                            </div>
-                            <div>
-                                <span class="seconds"></span>
-                                <div class="smalltext">Seconds</div>
-                            </div>
-                        </div>
-                        <Script>
-                            function getTimeRemaining(endtime) {
-                                var t = Date.parse(endtime) - Date.parse(new Date());
-                                var seconds = Math.floor((t / 1000) % 60);
-                                var minutes = Math.floor((t / 1000 / 60) % 60);
-                                var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-                                var days = Math.floor(t / (1000 * 60 * 60 * 24));
-                                return {
-                                    'total': t,
-                                    'days': days,
-                                    'hours': hours,
-                                    'minutes': minutes,
-                                    'seconds': seconds
-                                };
-                            }
-
-                            function initializeClock(id, endtime) {
-                                var clock = document.getElementById(id);
-                                var daysSpan = clock.querySelector('.days');
-                                var hoursSpan = clock.querySelector('.hours');
-                                var minutesSpan = clock.querySelector('.minutes');
-                                var secondsSpan = clock.querySelector('.seconds');
-
-                                function updateClock() {
-                                    var t = getTimeRemaining(endtime);
-
-                                    daysSpan.innerHTML = t.days;
-                                    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-                                    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-                                    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-                                    if (t.total <= 0) {
-                                        clearInterval(timeinterval);
-                                    }
-                                }
-
-                                updateClock();
-                                var timeinterval = setInterval(updateClock, 1000);
-                            }
-
-                            var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-                            initializeClock('clockdiv', deadline);
-                        </Script>
                         <div class="separator-banner"><i class="fa fa-heart"></i></div>
                     </div>
                 </div>
@@ -1162,6 +1046,7 @@
     </script>
 
     <script src="js/script.js"></script>
+    <script src="js/countdown.js"></script>
 
 </body>
 
