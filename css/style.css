@@ -4456,6 +4456,7 @@ TABS
 .rs-tabs .nav-tabs .nav-link.active {
     background-color: #C69C6D;
     color: #ffffff;
+    font-weight: bold;
     border-color: #C69C6D;
 }
 
