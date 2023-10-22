@@ -7094,3 +7094,13 @@ Back To Top Section
 
 
 /*# sourceMappingURL=style.css.map */
+
+.form-contact {
+    background: rgb(198, 156, 109);
+    background: linear-gradient(198deg, rgba(198, 156, 109, 1) 0%, rgba(131, 79, 21, 1) 100%);
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    opacity: 95%;
+    text-align: center;
+}
