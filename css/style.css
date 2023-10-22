@@ -5220,8 +5220,9 @@ Back To Top Section
 
 .nav-pills .nav-link.active {
     color: #333333;
-    border-color: #333333;
-    background-color: transparent;
+    font-weight: bold;
+    border-color: #ffffff;
+    background-color: #C69C6D;
 }
 
 .box-wedding {
@@ -7105,4 +7106,9 @@ Back To Top Section
     text-align: center;
     box-shadow: 10px 11px 7px 0px rgba(82, 81, 82, 0.41);
     box-shadow: inset 10px 11px 7px -7px rgba(82, 81, 82, 0.41);
+}
+
+.text-our-love {
+    color: white !important;
+    text-shadow: 2px 2px #232323;
 }
