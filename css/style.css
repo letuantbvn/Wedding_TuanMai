@@ -7103,4 +7103,6 @@ Back To Top Section
     border-radius: 20px;
     opacity: 95%;
     text-align: center;
+    box-shadow: 10px 11px 7px 0px rgba(82, 81, 82, 0.41);
+    box-shadow: inset 10px 11px 7px -7px rgba(82, 81, 82, 0.41);
 }
