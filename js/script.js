@@ -389,7 +389,7 @@ document.querySelector('#submit_form').onsubmit = function(e) {
         phoneOj.parentElement.querySelector('.required').innerText = errors['phone'];
     }
     if (sms.trim() == '') {
-        errors['sms'] = 'Lời nhắn không được trống';
+        errors['sms'] = 'Vui lòng không để trống';
         smsOj.parentElement.querySelector('.required').innerText = errors['sms'];
     }
 
