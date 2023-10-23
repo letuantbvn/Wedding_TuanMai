@@ -7113,3 +7113,7 @@ Back To Top Section
     color: white !important;
     text-shadow: 2px 2px #232323;
 }
+
+.timer-countdown {
+    text-align: center;
+}
